@@ -1,0 +1,43 @@
+﻿<Window Icon="/SweetRollWindow;component/Image/ChocolateCake.ico  "
+        x:Class="SweetRollWindow.ProductWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SweetRollWindow"
+        mc:Ignorable="d"
+        Background="AntiqueWhite"
+        Title="Продукты" Height="530" Width="560">
+    <Grid Margin="0,0,-6.2,0.4">
+        <TextBox Name="TextBoxProdWNazvanie" Text="{Binding Nazvanie}"  HorizontalAlignment="Left" FontFamily="Segoe Print" FontWeight="Bold" Height="30" Margin="235,35,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="269" FontSize="16"/>
+        <Label Content="Название &#xD;&#xA;продукта:" FontFamily="Segoe Print" FontWeight="Bold" HorizontalAlignment="Left" Margin="39,23,0,0" VerticalAlignment="Top" Width="120"  FontSize="16"/>
+
+        <DatePicker Name="DatePickerProdWBirth" SelectedDate="{Binding Date_Birth}" FontFamily="Segoe Print" FontWeight="Bold" HorizontalAlignment="Left" Margin="235,100,0,0" VerticalAlignment="Top" Height="30" Width="269" FontSize="16"/>
+        <Label Content="Дата изготовления:" FontFamily="Segoe Print" FontWeight="Bold" HorizontalAlignment="Left" Margin="40,100,0,0" VerticalAlignment="Top" Width="190"  FontSize="16"/>
+
+        <DatePicker  Name="DatePickerProdWDeath" SelectedDate="{Binding Date_Death}" FontFamily="Segoe Print" FontWeight="Bold" HorizontalAlignment="Left" Margin="235,170,0,0" VerticalAlignment="Top" Height="30" Width="268" FontSize="16" RenderTransformOrigin="0.5,0.5">
+            <DatePicker.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.057"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </DatePicker.RenderTransform>
+        </DatePicker>
+        <Label Content="Дата истечения &#xD;&#xA;срока годности:" FontFamily="Segoe Print" FontWeight="Bold" HorizontalAlignment="Left" Margin="40,157,0,0" VerticalAlignment="Top" Width="161"  FontSize="16"/>
+
+        <TextBox x:Name="TextBoxProdWKolichestvo" Text="{Binding Kolichestvo}" FontFamily="Segoe Print" FontWeight="Bold" HorizontalAlignment="Left" Height="30" Margin="235,240,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="269" FontSize="16"/>
+        <Label Content="Количество:" FontFamily="Segoe Print" FontWeight="Bold" HorizontalAlignment="Left" Margin="40,240,0,0" VerticalAlignment="Top" Width="141"  FontSize="16"/>
+
+        <TextBox x:Name="TextBoxProdWStoimost" Text="{Binding Cost}" FontFamily="Segoe Print" FontWeight="Bold" HorizontalAlignment="Left" Height="30" Margin="235,310,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="269" FontSize="16"/>
+        <Label Content="Цена:" FontFamily="Segoe Print" FontWeight="Bold" HorizontalAlignment="Left" Margin="40,310,0,0" VerticalAlignment="Top" Width="141"  FontSize="16"/>
+
+        <ComboBox Name="ComboBoxProdWType" SelectedValue ="{Binding Id_Tip_produkta_FK}" FontFamily="Segoe Print" FontWeight="Bold" HorizontalAlignment="Left" Margin="73,436,0,0" VerticalAlignment="Top" Width="269" Height="30"/>
+        <Label Content="Тип изделия:" FontFamily="Segoe Print" FontWeight="Bold" HorizontalAlignment="Left" Margin="40,380,0,0" VerticalAlignment="Top" Width="141"  FontSize="16"/>
+
+        <Button x:Name="ButtonProdW" Content="ОК" HorizontalAlignment="Left" Foreground="#FFA00000" FontFamily="Segoe Print" FontSize="15" FontWeight="Bold" Margin="384,436,0,0" VerticalAlignment="Top" Width="120" Height="40" Click="ButtonProdW_Click"/>
+        <TextBox x:Name="TextBoxProdWType" Text="{Binding Id_Tip_produkta_FK}" FontFamily="Segoe Print" FontWeight="Bold" HorizontalAlignment="Left" Height="30" Margin="235,380,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="269" FontSize="16"/>
+
+    </Grid>
+</Window>

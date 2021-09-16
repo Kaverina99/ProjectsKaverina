@@ -1,0 +1,87 @@
+﻿
+        <Window Icon="D:\Юрий Владимирович\Конструирование ПО\Курсач\BakingShop\cake.ico"
+    x:Class="SweetRoll.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SweetRoll"
+        mc:Ignorable="d"
+        Title="SweetRoll" Height="450" Width="800">
+    <Grid Background="LightGoldenrodYellow" Margin="0,0,2,0">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="37*"/>
+            <RowDefinition Height="5*"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="239*"></ColumnDefinition>
+            <ColumnDefinition Width="553*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Background="LightGoldenrodYellow" Grid.RowSpan="2" Margin="0,0,2.2,-1">
+            <Image Margin="0,5,-0.2,0" Source="/SweetRoll;component/Resources/Cake_Chocolate.png"  Height="101"/>
+            <Label Margin="0,5,0,5" HorizontalAlignment="Center" FontSize="40" Content="SweetRoll" Foreground="Brown" Cursor="Arrow" FontFamily="CountryBlueprint" FontWeight="Bold" >
+                <Label.Effect>
+                    <DropShadowEffect
+                        ShadowDepth="4"
+                        Color="Coral"
+                        BlurRadius="1"/>
+                </Label.Effect>
+            </Label>
+            <Separator/>
+
+            <Button Name="ProductButton"  Command=""  BorderThickness="0" Height="57" Margin="5,5,4.8,5" Background="LightSalmon" FontSize="22" Content="Изделия в наличии" FontFamily="Segoe Print" FontWeight="Bold" Foreground="#FFA10000" Click="ProductButton_Click"  />
+            <ToggleButton x:Name="ViewAllOrdersButton"  Command=""  BorderThickness="0" Height="48" Margin="5,5,4.8,5" Background="LightSalmon"  FontSize="22" Content="Покупки" FontFamily="Segoe Print" Foreground="#FFA00000" FontWeight="Bold"/>
+            <ToggleButton x:Name="ViewAllDiscountsButton"  Command=""  BorderThickness="0" Height="48" Margin="5,5,4.8,5" Background="LightSalmon"  FontSize="22" Content="Просрочка" Foreground="#FFA00000" FontFamily="Segoe Print" FontWeight="Bold"/>
+
+        </StackPanel>
+        <Button Grid.Column="0" Grid.Row="1" Margin="5,3.4,7.2,10" Command="{Binding CloseWindow}" CommandParameter="{Binding ElementName=Main}" BorderThickness="0"  Background="LightSalmon"  FontSize="22" Content="Выход" FontFamily="Segoe Print" Foreground="#FFA00000" FontWeight="Bold"/>
+
+        <Grid Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="207,0,0,-1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60*"/>
+                <RowDefinition Height="366*"/>
+            </Grid.RowDefinitions>
+
+            <Separator VerticalAlignment="Bottom"/>
+
+            <Grid.Style>
+                <Style TargetType="Grid">
+                    <Setter Property="Visibility" Value="Hidden"/>
+
+                </Style>
+            </Grid.Style>
+        </Grid>
+
+        <Grid Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="207,0,0,-1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60*"/>
+                <RowDefinition Height="366*"/>
+            </Grid.RowDefinitions>
+
+            <Separator VerticalAlignment="Bottom"/>
+
+            <Grid.Style>
+                <Style TargetType="Grid">
+                    <Setter Property="Visibility" Value="Hidden"/>
+
+                </Style>
+            </Grid.Style>
+        </Grid>
+
+        <Grid Grid.RowSpan="2" Grid.ColumnSpan="2" Margin="207,0,0,-1">
+            <Grid.RowDefinitions>
+                <RowDefinition Height="60*"/>
+                <RowDefinition Height="366*"/>
+            </Grid.RowDefinitions>
+
+            <Separator VerticalAlignment="Bottom"/>
+            <Grid.Style>
+                <Style TargetType="Grid">
+                    <Setter Property="Visibility" Value="Hidden"/>
+
+                </Style>
+            </Grid.Style>
+        </Grid>
+    </Grid>
+</Window>
+
