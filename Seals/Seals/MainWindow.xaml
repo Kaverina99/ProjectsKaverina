@@ -1,0 +1,395 @@
+﻿<Window Icon="/Seals;component/Resource_/icon.ico"
+        x:Class="Seals.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Seals"
+        mc:Ignorable="d"
+        Title="Seals" Height="720" Width="1200" MinWidth="1200" MinHeight="720" Background="#FFBFBBBB">
+    <Grid>
+        <TabControl Margin="0"  Background="#FFACACAC">
+
+            <TabItem Name="Tab0" Header="ГЛАВНАЯ" FontFamily="TimeNewRomans" FontSize="15" Height="25" Width="150">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="15*"/>
+                        <RowDefinition Height="60*"/>
+                        <RowDefinition Height="15*"/>
+                        <RowDefinition Height="200*"/>
+                        <RowDefinition Height="40*"/>
+                        <RowDefinition Height="320*"/>
+                        <RowDefinition Height="60*"/>
+                        <RowDefinition Height="20*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="20*"/>
+                        <ColumnDefinition Width="1160*"/>
+                        <ColumnDefinition Width="20*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Label Content='Добро пожаловать в систему "Seals" !' Grid.Row="1" Grid.Column="1" FontSize="32" HorizontalAlignment="Center"/>
+
+                    <Grid Grid.Row="3" Grid.Column="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="520*"/>
+                            <ColumnDefinition Width="18*"/>
+                            <ColumnDefinition Width="612*"/>
+                        </Grid.ColumnDefinitions>
+                        <Image Source="/Seals;component/Resource_/anod.jpg" HorizontalAlignment="Left" />
+                        <Label  Grid.Column="3" FontSize="24" HorizontalAlignment="Center" VerticalAlignment="Center" Content='Научно-производственный центр «АНОД» – это &#xD;&#xA;организация, которая занимается проектированием &#xD;&#xA;и изготовлением торцевых уплотнений, насосных &#xD;&#xA;агрегатов, подшипников скольжения, модернизацией &#xD;&#xA;насосных агрегатов и многим другим.'/>
+                    </Grid>
+
+                    <Label Content="Основными целями создания системы являются:
+                    &#xD;&#xA;     -	графический интерфейс для добавления нового торцового уплотнения в БД;
+                    &#xD;&#xA;     -	графический интерфейс для добавления новых наименований среды и материала;
+                    &#xD;&#xA;     -	подбор торцевого уплотнения на основе клиентских параметров;
+                    &#xD;&#xA;     -	автоматический расчет стоимости заказа клиента." Grid.Column="1" Grid.Row="5" HorizontalContentAlignment="Center" FontSize="28" />
+
+                    <Label Content="Разработчик системы: Каверина Екатерина Васильевна, kaverina-1999@mail.ru" Grid.Row="6" Grid.Column="1" FontSize="20" HorizontalAlignment="Left" VerticalAlignment="Bottom"/>
+                </Grid>
+
+            </TabItem>
+
+            <TabItem Name="Tab" Header="Подобрать торцовое уплотнение" FontFamily="TimeNewRomans" FontSize="15" Height="25" Width="300">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="60*"/>
+                        <RowDefinition Height="460*"/>
+                        <RowDefinition Height="200*"/>
+                    </Grid.RowDefinitions>
+
+                    <Grid Grid.Row="0">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="190*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="280*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="300*"/>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="280*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="12*"/>
+                            <RowDefinition Height="36*"/>
+                            <RowDefinition Height="12*"/>
+                        </Grid.RowDefinitions>
+
+                        <Label Content="*Тип уплотнения:" Grid.Column="1" Grid.Row="1" FontSize="19" />
+                        <ComboBox Name="ComboBoxTipSe" ItemsSource="{Binding TipSe}" SelectedItem ="{Binding SelectTipSe}" SelectedIndex="{Binding comboBoxTipSe}" DisplayMemberPath="NameSe" Grid.Column="3" Grid.Row="1" FontSize="19" />
+
+                        <Label Content="*Наименование среды:" Grid.Column="5" Grid.Row="1" FontSize="19" />
+                        <ComboBox Name="ComboBoxSr" ItemsSource="{Binding Sr}" SelectedItem ="{Binding SelectSr}" SelectedIndex="{Binding comboBoxSr}" DisplayMemberPath="NameS" Grid.Column="7" Grid.Row="1" FontSize="19"/>
+                    </Grid>
+
+                    <Grid Grid.Row="1">
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="540*"/>
+                            <ColumnDefinition Width="600*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Image Source="/Seals;component/Resource_/nas.jpg" Grid.Column="1" HorizontalAlignment="Left"/>
+
+                        <Grid Grid.Column="2">
+                            <Grid.RowDefinitions>
+                                <RowDefinition Height="130*"/>
+                                <RowDefinition Height="180*"/>
+                                <RowDefinition Height="150*"/>
+                            </Grid.RowDefinitions>
+
+                            <Grid>
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="29*"/>
+                                    <RowDefinition Height="37*"/>
+                                    <RowDefinition Height="23*"/>
+                                    <RowDefinition Height="37*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="410*"/>
+                                    <ColumnDefinition Width="30*"/>
+                                    <ColumnDefinition Width="160*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Content="Давление в сальниковой камере, МПа:"  Grid.Row="1" FontSize="19" HorizontalAlignment="Right"/>
+                                <TextBox Name="TDavl" Text="{Binding tDavl}" Grid.Column="3" Grid.Row="1" FontSize="19"/>
+                                <Label Content="*Температура, С:" Grid.Row="3" FontSize="19" HorizontalAlignment="Right"/>
+                                <TextBox Name="TC" Text="{Binding tC}" Grid.Column="3" Grid.Row="3" FontSize="19"/>
+                            </Grid>
+
+                            <Grid Grid.Row="1">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="23*"/>
+                                    <RowDefinition Height="37*"/>
+                                    <RowDefinition Height="23*"/>
+                                    <RowDefinition Height="37*"/>
+                                    <RowDefinition Height="23*"/>
+                                    <RowDefinition Height="37*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="100*"/>
+                                    <ColumnDefinition Width="20*"/>
+                                    <ColumnDefinition Width="160*"/>
+                                    <ColumnDefinition Width="40*"/>
+                                    <ColumnDefinition Width="100*"/>
+                                    <ColumnDefinition Width="20*"/>
+                                    <ColumnDefinition Width="160*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Content="*Dв:" Grid.Row="1" FontSize="19" HorizontalAlignment="Right"  />
+                                <TextBox Name="TDv" Text="{Binding tDv}" Grid.Column="2" Grid.Row="1" FontSize="19"/>
+
+                                <Label Content="*D1:" Grid.Column="4" Grid.Row="1" FontSize="19" HorizontalAlignment="Right"/>
+                                <TextBox Name="TD1" Text="{Binding tD1}" Grid.Column="6" Grid.Row="1" FontSize="19"/>
+
+                                <Label Content="*L1:" Grid.Row="3" FontSize="19" HorizontalAlignment="Right"/>
+                                <TextBox Name="TL1" Text="{Binding tL1}" Grid.Column="2" Grid.Row="3" FontSize="19"/>
+
+                                <Label Content="*L2:" Grid.Column="4" Grid.Row="3" FontSize="19" HorizontalAlignment="Right"/>
+                                <TextBox Name="TL2" Text="{Binding tL2}" Grid.Column="6" Grid.Row="3" FontSize="19"/>
+
+                                <Label Content="D2:"  Grid.Row="5" FontSize="19" HorizontalAlignment="Right"/>
+                                <TextBox Name="TD2" Text="{Binding tD2}" Grid.Column="2" Grid.Row="5" FontSize="19"/>
+
+                                <Label Content="D3:" Grid.Column="4" Grid.Row="5" FontSize="19" HorizontalAlignment="Right"/>
+                                <TextBox Name="TD3" Text="{Binding tD3}" Grid.Column="6" Grid.Row="5" FontSize="19"/>
+                            </Grid>
+
+                            <Grid Grid.Row="2">
+                                <Grid.RowDefinitions>
+                                    <RowDefinition Height="23*"/>
+                                    <RowDefinition Height="37*"/>
+                                    <RowDefinition Height="23*"/>
+                                    <RowDefinition Height="50*"/>
+                                    <RowDefinition Height="21*"/>
+                                </Grid.RowDefinitions>
+                                <Grid.ColumnDefinitions>
+                                    <ColumnDefinition Width="140*"/>
+                                    <ColumnDefinition Width="280*"/>
+                                    <ColumnDefinition Width="20*"/>
+                                    <ColumnDefinition Width="160*"/>
+                                </Grid.ColumnDefinitions>
+
+                                <Label Content="Количество уплотнений, шт:" Grid.Column="1" Grid.Row="1" FontSize="19" HorizontalAlignment="Right"/>
+                                <TextBox Name="TKol" Text="{Binding tKol}" Grid.Column="3" Grid.Row="1" FontSize="19"/>
+                                <Label Content="*Обязательные поля для заполнения" Grid.Row="3" Grid.ColumnSpan="2" FontSize="19" Foreground="Red" HorizontalAlignment="Center" VerticalAlignment="Center"/>
+                                <Button Content="Поиск"  Command="{Binding ResCommand}"  Grid.Column="3" Grid.Row="3" FontSize="21"/>
+                            </Grid>
+                        </Grid>
+                    </Grid>
+
+
+                    <Grid Grid.Row="2">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="10*"/>
+                            <RowDefinition Height="130*"/>
+                            <RowDefinition Height="10*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="30*"/>
+                            <ColumnDefinition Width="1140*"/>
+                            <ColumnDefinition Width="30*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <DataGrid Name="dataGrid1" ItemsSource="{Binding resS}" AutoGenerateColumns="False" CanUserAddRows="False" IsReadOnly="True" Grid.Column="1" Grid.Row="1" FontSize="14">
+                            <DataGrid.Columns>
+                                <DataGridTextColumn Header="Уплотнение" Binding="{Binding NameSeal}"/>
+                                <DataGridTextColumn Header="Dвала" Binding="{Binding Dv}"/>
+                                <DataGridTextColumn Header="D1" Binding="{Binding D1}"/>
+                                <DataGridTextColumn Header="D3" Binding="{Binding D3}"/>
+                                <DataGridTextColumn Header="L2" Binding="{Binding L2}"/>
+                                <DataGridTextColumn Header="L1" Binding="{Binding L1}"/>
+                                <DataGridTextColumn Header="D2" Binding="{Binding D2}"/>
+                                <DataGridTextColumn Header="Dш" Binding="{Binding Dsh}"/>
+                                <DataGridTextColumn Header="N" Binding="{Binding N}"/>
+                                <DataGridTextColumn Header="а,угол" Binding="{Binding A}"/>
+                                <DataGridTextColumn Header="Насос" Binding="{Binding Nasos}"/>
+                                <DataGridTextColumn Header="Среда" Binding="{Binding NameS}"/>
+                                <DataGridTextColumn Header="Температура,С" Binding="{Binding C}"/>
+                                <DataGridTextColumn Header="Давление,МПа" Binding="{Binding Davl}"/>
+                                <DataGridTextColumn Header="Материал" Binding="{Binding NameM}"/>
+                                <DataGridTextColumn Header="Масса нетто" Binding="{Binding M_netto}"/>
+                                <DataGridTextColumn Header="Цена 1-6шт" Binding="{Binding Cost1}"/>
+                                <DataGridTextColumn Header="Цена >6шт" Binding="{Binding Cost6}"/>
+                                <DataGridTextColumn Header="Цена ЗиП" Binding="{Binding CostZ}"/>
+                                <DataGridTextColumn Header="Количество" Binding="{Binding Kolvo}"/>
+                                <DataGridTextColumn Header="Стоимость заказа" Binding="{Binding Total}"/>
+                                <DataGridTextColumn Header="Особенности" Binding="{Binding Features}"/>
+                            </DataGrid.Columns>
+                        </DataGrid>
+                    </Grid>
+
+                </Grid>
+
+            </TabItem>
+
+
+            <TabItem Name="Tab2" Header="Добавить торцовое уплотнение" FontFamily="TimeNewRomans" FontSize="15" Height="25" Width="300">
+                <Grid>
+                    <Grid.RowDefinitions>
+                        <RowDefinition Height="50*"/>
+                        <RowDefinition Height="620*"/>
+                        <RowDefinition Height="50*"/>
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="100*"/>
+                        <ColumnDefinition Width="1000*"/>
+                        <ColumnDefinition Width="100*"/>
+                    </Grid.ColumnDefinitions>
+
+                    <Grid Grid.Row="1" Grid.Column="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="31*"/>
+                            <RowDefinition Height="19*"/>
+
+                            <RowDefinition Height="32*"/>
+                            <RowDefinition Height="18*"/>
+
+                            <RowDefinition Height="31*"/>
+                            <RowDefinition Height="19*"/>
+
+                            <RowDefinition Height="31*"/>
+                            <RowDefinition Height="19*"/>
+
+                            <RowDefinition Height="31*"/>
+                            <RowDefinition Height="19*"/>
+
+                            <RowDefinition Height="31*"/>
+                            <RowDefinition Height="19*"/>
+
+                            <RowDefinition Height="31*"/>
+                            <RowDefinition Height="19*"/>
+
+                            <RowDefinition Height="32*"/>
+                            <RowDefinition Height="18*"/>
+
+                            <RowDefinition Height="31*"/>
+                            <RowDefinition Height="19*"/>
+
+                            <RowDefinition Height="31*"/>
+                            <RowDefinition Height="19*"/>
+
+                            <RowDefinition Height="31*"/>
+                            <RowDefinition Height="19*"/>
+
+                            <RowDefinition Height="20*"/>
+
+                            <RowDefinition Height="31*"/>
+                            <RowDefinition Height="19*"/>
+                        </Grid.RowDefinitions>
+                        <Grid.ColumnDefinitions>
+                            <ColumnDefinition Width="220*"/>
+                            <ColumnDefinition Width="40*"/>
+                            <ColumnDefinition Width="200*"/>
+                            <ColumnDefinition Width="80*"/>
+                            <ColumnDefinition Width="220*"/>
+                            <ColumnDefinition Width="40*"/>
+                            <ColumnDefinition Width="200*"/>
+                        </Grid.ColumnDefinitions>
+
+                        <Label Content="*Название уплотнения:" FontSize="18" />
+                        <TextBox Name="AddNameSeal" Text="{Binding dNameSeal}" Grid.Column="2" FontSize="18"/>
+
+                        <Label Content="*Тип уплотнения:" Grid.Column="4" FontSize="18"/>
+                        <ComboBox Name="ComboTipSe2"  ItemsSource="{Binding TipSe2}" SelectedItem ="{Binding SelectTipSe2}" SelectedIndex="{Binding comboBoxTipSe2}" DisplayMemberPath="NameSe" Grid.Column="6" FontSize="18" />
+
+
+                        <Label Content="*Тип с холодильником:" Grid.Row="2" FontSize="18" />
+                        <ComboBox Name="ComboTipHol"  ItemsSource="{Binding TipHol}" SelectedItem ="{Binding SelectTipHol}" SelectedIndex="{Binding comboBoxTipHol}" DisplayMemberPath="NameHol" Grid.Row="2" Grid.Column="2" FontSize="18"/>
+
+                        <Label Content="*Материал уплотнения:" Grid.Row="2" Grid.Column="4" FontSize="18" />
+                        <ComboBox Name="ComboM"  ItemsSource="{Binding M}" SelectedItem ="{Binding SelectM}" SelectedIndex="{Binding comboBoxM}" DisplayMemberPath="NameM" Grid.Row="2" Grid.Column="6" FontSize="18"/>
+
+
+                        <Label Content="*D вала:" Grid.Row="4" FontSize="18" />
+                        <TextBox Name="AddDv" Text="{Binding dDv}" Grid.Column="2" Grid.Row="4" FontSize="18"/>
+
+                        <Label Content="*D1:" Grid.Column="4" Grid.Row="4" FontSize="18" />
+                        <TextBox Name="AddD1" Text="{Binding dD1}" Grid.Column="6" Grid.Row="4" FontSize="18"/>
+
+
+                        <Label Content="*D3:" Grid.Row="6" FontSize="18" />
+                        <TextBox Name="AddD3" Text="{Binding dD3}" Grid.Column="2" Grid.Row="6" FontSize="18"/>
+
+                        <Label Content="*L2:" Grid.Column="4" Grid.Row="6" FontSize="18" />
+                        <TextBox Name="AddL2" Text="{Binding dL2}" Grid.Column="6" Grid.Row="6" FontSize="18"/>
+
+
+                        <Label Content="*L1:" Grid.Row="8" FontSize="18" />
+                        <TextBox Name="AddL1" Text="{Binding dL1}" Grid.Column="2" Grid.Row="8" FontSize="18"/>
+
+                        <Label Content="*D2:" Grid.Column="4" Grid.Row="8" FontSize="18" />
+                        <TextBox Name="AddD2" Text="{Binding dD2}" Grid.Column="6" Grid.Row="8" FontSize="18"/>
+
+
+                        <Label Content="*Dш:" Grid.Row="10" FontSize="18" />
+                        <TextBox Name="AddDsh" Text="{Binding dDsh}" Grid.Column="2" Grid.Row="10" FontSize="18"/>
+
+                        <Label Content="N, шт:" Grid.Column="4" Grid.Row="10" FontSize="18" />
+                        <TextBox Name="AddN" Text="{Binding dN}" Grid.Column="6" Grid.Row="10" FontSize="18"/>
+
+
+                        <Label Content="*угол a:"  Grid.Row="12" FontSize="18" />
+                        <TextBox Name="AddA" Text="{Binding dA}" Grid.Column="2" Grid.Row="12" FontSize="18"/>
+
+                        <Label Content="Насос:"  Grid.Row="12" Grid.Column="4" FontSize="18" />
+                        <TextBox Name="AddNasos" Text="{Binding dNasos}" Grid.Column="6" Grid.Row="12" FontSize="18"/>
+
+
+                        <Label Content="*Наименование среды:" Grid.Row="14" FontSize="18" />
+                        <ComboBox Name="ComboSr2"  ItemsSource="{Binding Sr2}" SelectedItem ="{Binding SelectSr2}" SelectedIndex="{Binding comboBoxSr2}" DisplayMemberPath="NameS" Grid.Column="2" Grid.Row="14" FontSize="18"/>
+
+                        <Label Content="Масса нетто:" Grid.Column="4" Grid.Row="14" FontSize="18" />
+                        <TextBox Name="AddNetto" Text="{Binding dNetto}" Grid.Column="6" Grid.Row="14" FontSize="18"/>
+
+
+                        <Label Content="*Температура, C:"  Grid.Row="16" FontSize="18"/>
+                        <TextBox Name="AddC" Text="{Binding dC}" Grid.Column="2" Grid.Row="16" FontSize="18"/>
+
+                        <Label Content="Давление в сал. камере:" Grid.Row="16" Grid.Column="4" FontSize="18" />
+                        <TextBox Name="AddDavl" Text="{Binding dDavl}" Grid.Column="6" Grid.Row="16" FontSize="18"/>
+
+
+                        <Label Content="Особенности:"  Grid.Row="18" FontSize="18" />
+                        <TextBox Name="AddFeat" Text="{Binding dFeat}" Grid.Column="2" Grid.Row="18" FontSize="18"/>
+
+                        <Label Content="Цена ЗиП:" Grid.Column="4" Grid.Row="18" FontSize="18" />
+                        <TextBox Name="AddCostZ" Text="{Binding dCostZ}" Grid.Column="6" Grid.Row="18" FontSize="18"/>
+
+
+                        <Label Content="Цена 1-6шт:" Grid.Row="20" FontSize="18" />
+                        <TextBox Name="AddCost1" Text="{Binding dCost1}" Grid.Column="2" Grid.Row="20" FontSize="18"/>
+
+                        <Label Content="Цена >6шт:" Grid.Column="4" Grid.Row="20" FontSize="18" />
+                        <TextBox Name="AddCost6" Text="{Binding dCost6}" Grid.Column="6" Grid.Row="20" FontSize="18"/>
+
+
+                        <Label Content="*Обязательные поля для заполнения" Grid.Row="23" Grid.RowSpan="2" Grid.ColumnSpan="3" FontSize="21" Foreground="Red" HorizontalAlignment="Center" VerticalAlignment="Center" />
+                        <Button Content="Сохранить"  Command="{Binding AddCommand}" Grid.Row="23" Grid.RowSpan="2"  Grid.Column="4" Grid.ColumnSpan="3"  FontSize="21"/>
+
+                        <Button Content="+"  Command="{Binding NewMatCommand}" Grid.Row="2" Grid.Column="3" FontSize="21" Width="30" HorizontalAlignment="Right"/>
+
+                    </Grid>
+
+
+                    <Grid Grid.Row="1">
+                        <Grid.RowDefinitions>
+                            <RowDefinition Height="350*"/>
+                            <RowDefinition Height="32*"/>
+                            <RowDefinition Height="238*"/>
+                        </Grid.RowDefinitions>
+
+                        <Button Content="+"  Command="{Binding NewSrCommand}" Grid.Row="1" FontSize="21" Width="30" HorizontalAlignment="Right" />
+                    </Grid>
+                </Grid>
+
+            </TabItem>
+
+
+        </TabControl>
+
+    </Grid>
+</Window>
