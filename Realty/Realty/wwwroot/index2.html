@@ -1,0 +1,106 @@
+﻿<!DOCTYPE html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Realty</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/StyleSheet.css">
+</head>
+<body>
+    <nav>
+        <ul class="topmenu">
+            <li>
+                <a href="index.html">Главная</a>
+            </li>
+            <li>
+                <a href="index1.html">Объявления</a>
+            </li>
+            <li><a href="index2.html">Агенты</a></li>
+            <li>
+                <a href="">Информация</a>
+            </li>
+        </ul>
+    </nav>
+    <div id="actionMsg" class="msgClass"></div>
+
+    <div class="wrapper">
+        <div class="row">
+            <div id="agentDiv" class="col-12"></div>
+
+        </div>
+    </div>
+
+    <button class="btn btn-success btn-sm center-block" data-toggle="modal" data-target="#myModal">Добавить агента</button>
+    <div class="container">
+        <div id="myModal" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="model-header">
+                        <button class="close" data-dismiss="modal">x</button>
+                        <h3 class="modal-title">Добавить агента</h3>
+                    </div>
+                    <div class="modal-body">
+
+                        <p>ФИО:</p>
+                        <div class="form-group">
+                            <input class="form-control" id="addName" placeholder="Введите ФИО" />
+                        </div>
+                        <p>Телефон:</p>
+                        <div class="form-group">
+                            <input class="form-control" id="addTell" placeholder="Введите телефон" />
+                        </div>
+                        <p>Email:</p>
+                        <div class="form-group">
+                            <input class="form-control" id="addEmail" placeholder="Введите Email" />
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button onclick="createAgent();" class="btn btn-success" data-dismiss="modal">Добавить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div id="myModal2" class="modal fade">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="model-header">
+                        <button class="close" data-dismiss="modal">x</button>
+                        <h3 class="modal-title">Редактирование</h3>
+                    </div>
+                    <div class="modal-body">
+
+                        <div class="form-group">
+                            <input type="hidden" id="editId" />
+                        </div>
+                        <p>ФИО:</p>
+                        <div class="form-group">
+                            <input class="form-control" id="editName" />
+                        </div>
+                        <p>Телефон:</p>
+                        <div class="form-group">
+                            <input class="form-control" id="editTell" />
+                        </div>
+                        <p>Email:</p>
+                        <div class="form-group">
+                            <input class="form-control" id="editEmail" />
+                        </div>
+
+                    </div>
+                    <div class="modal-footer">
+                        <button onclick="updateAgent();" class="btn btn-success" data-dismiss="modal">Применить</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <script src="/js/JavaScript1.js"></script>
+</body>
