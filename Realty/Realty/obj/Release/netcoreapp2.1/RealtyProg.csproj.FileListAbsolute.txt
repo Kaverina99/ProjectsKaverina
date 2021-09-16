@@ -1,6 +1,0 @@
-C:\Users\17477\Desktop\Realty\Realty\obj\Release\netcoreapp2.1\RealtyProg.csprojAssemblyReference.cache
-C:\Users\17477\Desktop\Realty\Realty\obj\Release\netcoreapp2.1\RealtyProg.csproj.CoreCompileInputs.cache
-C:\Users\17477\Desktop\Realty\Realty\obj\Release\netcoreapp2.1\RealtyProg.RazorAssemblyInfo.cache
-C:\Users\17477\Desktop\Realty\Realty\obj\Release\netcoreapp2.1\RealtyProg.RazorAssemblyInfo.cs
-C:\Users\17477\Desktop\Realty\Realty\obj\Release\netcoreapp2.1\RealtyProg.AssemblyInfoInputs.cache
-C:\Users\17477\Desktop\Realty\Realty\obj\Release\netcoreapp2.1\RealtyProg.AssemblyInfo.cs
