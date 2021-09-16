@@ -1,0 +1,3 @@
+
+.popup {width: 400px; cursor:pointer;}
+.popup:focus {width: 750px; length: 750px;}
