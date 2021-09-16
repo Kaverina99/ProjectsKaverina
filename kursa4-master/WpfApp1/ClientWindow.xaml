@@ -1,0 +1,33 @@
+﻿<Window Icon="C:\Users\КАТЯ\Desktop\5 семестр\Прога\house_home.ico"
+        x:Class="Agency.ClientWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Agency"
+        mc:Ignorable="d"
+        Background="#FFDCC3C3"
+        Title="Клиенты" Height="457" Width="577" MinWidth="577" MinHeight="457" MaxWidth="577" MaxHeight="457">
+    <Grid >
+        <TextBox Name="TextBoxClWFIO" Text="{Binding clName }" HorizontalAlignment="Left" Height="25" Margin="173,45,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="324"/>
+        <Label Content="ФИО клиента: " HorizontalAlignment="Left" Margin="70,45,0,0"  VerticalAlignment="Top" FontSize="14" Foreground="#FF5F2323" FontFamily="Malgun Gothic Semilight"/>
+
+        <TextBox Name="TextBoxClWPas" Text="{Binding clPassport}" HorizontalAlignment="Left" Height="25" Margin="173,94,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="324"/>
+        <Label Content="Паспорт: " HorizontalAlignment="Left" Margin="70,94,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF5F2323" FontFamily="Malgun Gothic Semilight"/>
+
+        <TextBox Name="TextBoxClWINN" Text="{Binding clINN}" HorizontalAlignment="Left" Height="25" Margin="173,143,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="324"/>
+        <Label Content="ИНН: " HorizontalAlignment="Left" Margin="70,143,0,0"  VerticalAlignment="Top" FontSize="14" Foreground="#FF5F2323" FontFamily="Malgun Gothic Semilight"/>
+
+        <TextBox Name="TextBoxClWBIK" Text="{Binding clBIK}" HorizontalAlignment="Left" Height="25" Margin="173,190,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="324"/>
+        <Label Content="БИК: " HorizontalAlignment="Left" Margin="70,190,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF5F2323" FontFamily="Malgun Gothic Semilight"/>
+
+        <TextBox Name="TextBoxClWSNILS" Text="{Binding clSNILS}" HorizontalAlignment="Left" Height="25" Margin="173,241,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="324"/>
+        <Label Content="СНИЛС: " HorizontalAlignment="Left" Margin="70,241,0,0"  VerticalAlignment="Top" FontSize="14" Foreground="#FF5F2323" FontFamily="Malgun Gothic Semilight"/>
+
+        <TextBox Name="TextBoxClWPhone" Text="{Binding clPhone}" HorizontalAlignment="Left" Height="25" Margin="173,292,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="324"/>
+        <Label Content="Телефон: " HorizontalAlignment="Left" Margin="70,293,0,0" VerticalAlignment="Top" FontSize="14" Foreground="#FF5F2323" FontFamily="Malgun Gothic Semilight"/>
+
+        <Button Name="ButtonClWOK" Command="{Binding AddCommand}" Content="ОК" HorizontalAlignment="Left" Margin="260,348,0,0" VerticalAlignment="Top" Width="100" Height="40" FontSize="18"  Foreground="#FF5F2323" FontFamily="Malgun Gothic Semilight" RenderTransformOrigin="0.823,0.558" FontWeight="Bold"/>
+        <Button Name="ButtonClWCanel" Content="Отмена" HorizontalAlignment="Left" Margin="390,348,0,0" VerticalAlignment="Top" Width="100" Height="40" FontSize="18" FontWeight="Bold"  Foreground="#FF5F2323" FontFamily="Malgun Gothic Semilight" RenderTransformOrigin="0.823,0.558" />
+    </Grid>
+</Window>
