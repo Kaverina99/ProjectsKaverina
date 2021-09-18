@@ -1,0 +1,62 @@
+C:\Users\КАТЯ\Desktop\4 семестр\Алыкова\Попытка 29.04\Попытка 29.04\bin\Debug\Попытка 29.04.exe.config
+C:\Users\КАТЯ\Desktop\4 семестр\Алыкова\Попытка 29.04\Попытка 29.04\bin\Debug\Попытка 29.04.exe
+C:\Users\КАТЯ\Desktop\4 семестр\Алыкова\Попытка 29.04\Попытка 29.04\bin\Debug\Попытка 29.04.pdb
+C:\Users\КАТЯ\Desktop\4 семестр\Алыкова\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.csprojAssemblyReference.cache
+C:\Users\КАТЯ\Desktop\4 семестр\Алыкова\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Form1.resources
+C:\Users\КАТЯ\Desktop\4 семестр\Алыкова\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Form2.resources
+C:\Users\КАТЯ\Desktop\4 семестр\Алыкова\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Form3.resources
+C:\Users\КАТЯ\Desktop\4 семестр\Алыкова\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Properties.Resources.resources
+C:\Users\КАТЯ\Desktop\4 семестр\Алыкова\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.csproj.GenerateResource.cache
+C:\Users\КАТЯ\Desktop\4 семестр\Алыкова\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.csproj.CoreCompileInputs.cache
+C:\Users\КАТЯ\Desktop\4 семестр\Алыкова\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.exe
+C:\Users\КАТЯ\Desktop\4 семестр\Алыкова\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.pdb
+C:\Users\2-42\Desktop\Попытка 29.04\Попытка 29.04\bin\Debug\Попытка 29.04.exe.config
+C:\Users\2-42\Desktop\Попытка 29.04\Попытка 29.04\bin\Debug\Попытка 29.04.exe
+C:\Users\2-42\Desktop\Попытка 29.04\Попытка 29.04\bin\Debug\Попытка 29.04.pdb
+C:\Users\2-42\Desktop\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.csprojResolveAssemblyReference.cache
+C:\Users\2-42\Desktop\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Form1.resources
+C:\Users\2-42\Desktop\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Form2.resources
+C:\Users\2-42\Desktop\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Form3.resources
+C:\Users\2-42\Desktop\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Properties.Resources.resources
+C:\Users\2-42\Desktop\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.csproj.GenerateResource.Cache
+C:\Users\2-42\Desktop\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.csproj.CoreCompileInputs.cache
+C:\Users\2-42\Desktop\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.exe
+C:\Users\2-42\Desktop\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.pdb
+C:\Users\КАТЯ\Desktop\Попытка 29.04\Попытка 29.04\bin\Debug\Попытка 29.04.exe.config
+C:\Users\КАТЯ\Desktop\Попытка 29.04\Попытка 29.04\bin\Debug\Попытка 29.04.exe
+C:\Users\КАТЯ\Desktop\Попытка 29.04\Попытка 29.04\bin\Debug\Попытка 29.04.pdb
+C:\Users\КАТЯ\Desktop\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.csprojAssemblyReference.cache
+C:\Users\КАТЯ\Desktop\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Form1.resources
+C:\Users\КАТЯ\Desktop\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Properties.Resources.resources
+C:\Users\КАТЯ\Desktop\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.csproj.GenerateResource.cache
+C:\Users\КАТЯ\Desktop\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.csproj.CoreCompileInputs.cache
+C:\Users\КАТЯ\Desktop\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.exe
+C:\Users\КАТЯ\Desktop\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.pdb
+C:\Users\КАТЯ\Desktop\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Forma_Pravila.resources
+C:\Users\КАТЯ\Desktop\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Forma_Spravka.resources
+C:\Users\КАТЯ\Desktop\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Forma_Infa.resources
+C:\Users\КАТЯ\Desktop\КУРСОВАЯ РАБОТА (черновик)\Попытка 29.04\Попытка 29.04\bin\Debug\Попытка 29.04.exe.config
+C:\Users\КАТЯ\Desktop\КУРСОВАЯ РАБОТА (черновик)\Попытка 29.04\Попытка 29.04\bin\Debug\Попытка 29.04.exe
+C:\Users\КАТЯ\Desktop\КУРСОВАЯ РАБОТА (черновик)\Попытка 29.04\Попытка 29.04\bin\Debug\Попытка 29.04.pdb
+C:\Users\КАТЯ\Desktop\КУРСОВАЯ РАБОТА (черновик)\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Form1.resources
+C:\Users\КАТЯ\Desktop\КУРСОВАЯ РАБОТА (черновик)\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Forma_Pravila.resources
+C:\Users\КАТЯ\Desktop\КУРСОВАЯ РАБОТА (черновик)\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Forma_Spravka.resources
+C:\Users\КАТЯ\Desktop\КУРСОВАЯ РАБОТА (черновик)\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Forma_Infa.resources
+C:\Users\КАТЯ\Desktop\КУРСОВАЯ РАБОТА (черновик)\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Properties.Resources.resources
+C:\Users\КАТЯ\Desktop\КУРСОВАЯ РАБОТА (черновик)\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.csproj.GenerateResource.cache
+C:\Users\КАТЯ\Desktop\КУРСОВАЯ РАБОТА (черновик)\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.csproj.CoreCompileInputs.cache
+C:\Users\КАТЯ\Desktop\КУРСОВАЯ РАБОТА (черновик)\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.exe
+C:\Users\КАТЯ\Desktop\КУРСОВАЯ РАБОТА (черновик)\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.pdb
+C:\Users\КАТЯ\Desktop\КУРСОВАЯ РАБОТА (черновик)\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.csprojAssemblyReference.cache
+A:\4 семестр\ПРОГРАММИРОВАНИЕ\ОКОНЧАЛЬНЫЕ ШАХМАТЫ С#\Попытка 29.04\Попытка 29.04\bin\Debug\Попытка 29.04.exe.config
+A:\4 семестр\ПРОГРАММИРОВАНИЕ\ОКОНЧАЛЬНЫЕ ШАХМАТЫ С#\Попытка 29.04\Попытка 29.04\bin\Debug\Попытка 29.04.exe
+A:\4 семестр\ПРОГРАММИРОВАНИЕ\ОКОНЧАЛЬНЫЕ ШАХМАТЫ С#\Попытка 29.04\Попытка 29.04\bin\Debug\Попытка 29.04.pdb
+A:\4 семестр\ПРОГРАММИРОВАНИЕ\ОКОНЧАЛЬНЫЕ ШАХМАТЫ С#\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.csprojAssemblyReference.cache
+A:\4 семестр\ПРОГРАММИРОВАНИЕ\ОКОНЧАЛЬНЫЕ ШАХМАТЫ С#\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Form1.resources
+A:\4 семестр\ПРОГРАММИРОВАНИЕ\ОКОНЧАЛЬНЫЕ ШАХМАТЫ С#\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Forma_Pravila.resources
+A:\4 семестр\ПРОГРАММИРОВАНИЕ\ОКОНЧАЛЬНЫЕ ШАХМАТЫ С#\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Forma_Spravka.resources
+A:\4 семестр\ПРОГРАММИРОВАНИЕ\ОКОНЧАЛЬНЫЕ ШАХМАТЫ С#\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Forma_Infa.resources
+A:\4 семестр\ПРОГРАММИРОВАНИЕ\ОКОНЧАЛЬНЫЕ ШАХМАТЫ С#\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка_29._04.Properties.Resources.resources
+A:\4 семестр\ПРОГРАММИРОВАНИЕ\ОКОНЧАЛЬНЫЕ ШАХМАТЫ С#\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.csproj.GenerateResource.cache
+A:\4 семестр\ПРОГРАММИРОВАНИЕ\ОКОНЧАЛЬНЫЕ ШАХМАТЫ С#\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.exe
+A:\4 семестр\ПРОГРАММИРОВАНИЕ\ОКОНЧАЛЬНЫЕ ШАХМАТЫ С#\Попытка 29.04\Попытка 29.04\obj\Debug\Попытка 29.04.pdb
