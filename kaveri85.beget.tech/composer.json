@@ -1,0 +1,5 @@
+{
+    "require": {
+        "andrewdanilov/yii2-admin-panel": "~2.0.0"
+    }
+}
